@@ -30,6 +30,8 @@ class HomeViewModel: ObservableObject {
         setupSubscriptions()
     }
     
+    // MARK: - Setup Methods
+    
     private func setupSubscriptions() {
         $searchText
             .dropFirst()
@@ -42,5 +44,29 @@ class HomeViewModel: ObservableObject {
                 self.cities = self.allCities.filter({ $0.title.contains(searchText) })
             }
         }.store(in: &subscriptions)
+    }
+    
+    // MARK: - Public Methods
+    
+    func getStatistics() -> String {
+        var counts: [Character: Int] = [:]
+        let strings = allCities.map(\.title)
+        
+        for string in strings {
+            for char in string.lowercased() {
+                guard char.isLetter else { continue }
+                counts[char, default: 0] += 1
+            }
+        }
+        
+        let top3 = counts.sorted { $0.value > $1.value }.prefix(3)
+        
+        var result = ""
+        
+        for item in top3 {
+            result += "\(item.key) = \(item.value)\n"
+        }
+        
+        return result
     }
 }

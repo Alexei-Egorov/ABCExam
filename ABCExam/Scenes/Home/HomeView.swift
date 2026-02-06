@@ -14,19 +14,22 @@ struct HomeView: View {
     
     var body: some View {
         ZStack {
-            VStack {
-                CarouselView(viewModel: viewModel.carouselViewModel)
-                    .frame(height: 250)
-                
-                SearchTextField(text: $viewModel.searchText)
-                    .frame(height: 40)
-                
-                List(viewModel.cities) { city in
-                    CityView(viewModel: .init(city: city))
-                        .listRowSeparator(.hidden)
-                        .listRowInsets(.init(top: 2, leading: 0, bottom: 2, trailing: 0))
+            ScrollView {
+                VStack(spacing: 16) {
+                    CarouselView(viewModel: viewModel.carouselViewModel)
+                        .frame(height: 250)
+                    
+                    SearchTextField(text: $viewModel.searchText)
+                        .frame(height: 40)
+                    
+                    LazyVStack(spacing: 4) {
+                        ForEach(viewModel.cities) { city in
+                            CityView(viewModel: .init(city: city))
+                                .padding(.vertical, 2)
+                        }
+                    }
                 }
-                .listStyle(.plain)
+                .padding(20)
             }
             
             VStack {
@@ -35,11 +38,11 @@ struct HomeView: View {
                     Spacer()
                     MoreButtonView(isPresented: $showOverlay)
                 }
+                .padding(20)
             }
             
             TextOverlayView(isPresented: $showOverlay, text: viewModel.getStatistics())
         }
-        .padding(20)
         .onTapGesture {
             hideKeyboard()
         }

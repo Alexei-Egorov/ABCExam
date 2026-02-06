@@ -16,6 +16,7 @@ struct CityView: View {
             Image(viewModel.imageName)
                 .resizable()
                 .frame(width: 80, height: 80)
+                .clipShape(RoundedRectangle(cornerRadius: 15))
             VStack(alignment: .leading) {
                 Text(viewModel.title)
                     .font(.headline)
@@ -24,6 +25,7 @@ struct CityView: View {
             }
             Spacer()
         }
+        .padding(5)
         .background(Color.appCyan)
         .clipShape(RoundedRectangle(cornerRadius: 15))
     }

@@ -6,17 +6,38 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FB37F6CA2F33EF6900F96E89 /* ABCExamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37F6BC2F33EF6900F96E89 /* ABCExamApp.swift */; };
+		FB37F6CB2F33EF6900F96E89 /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37F6BE2F33EF6900F96E89 /* CarouselModel.swift */; };
+		FB37F6CC2F33EF6900F96E89 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37F6BF2F33EF6900F96E89 /* CarouselView.swift */; };
+		FB37F6CD2F33EF6900F96E89 /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37F6C02F33EF6900F96E89 /* CarouselViewModel.swift */; };
+		FB37F6CE2F33EF6900F96E89 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37F6C22F33EF6900F96E89 /* HomeView.swift */; };
+		FB37F6CF2F33EF6900F96E89 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37F6C32F33EF6900F96E89 /* HomeViewModel.swift */; };
+		FB37F6D02F33EF6900F96E89 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37F6C52F33EF6900F96E89 /* City.swift */; };
+		FB37F6D12F33EF6900F96E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB37F6C72F33EF6900F96E89 /* Assets.xcassets */; };
+		FBE0B62D2F34F71700BDE7CC /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0B62C2F34F71700BDE7CC /* CityView.swift */; };
+		FBE0B62F2F34F78F00BDE7CC /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0B62E2F34F78F00BDE7CC /* CityViewModel.swift */; };
+		FBE0B6312F34F86F00BDE7CC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE0B6302F34F86F00BDE7CC /* Colors.xcassets */; };
+		FBE0B6342F35006200BDE7CC /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0B6332F35006200BDE7CC /* SearchTextField.swift */; };
+		FBE0B6372F35749500BDE7CC /* View.Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0B6362F35749500BDE7CC /* View.Ext.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FB37F6832F33A19600F96E89 /* ABCExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABCExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB37F6BC2F33EF6900F96E89 /* ABCExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABCExamApp.swift; sourceTree = "<group>"; };
+		FB37F6BE2F33EF6900F96E89 /* CarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
+		FB37F6BF2F33EF6900F96E89 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		FB37F6C02F33EF6900F96E89 /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
+		FB37F6C22F33EF6900F96E89 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FB37F6C32F33EF6900F96E89 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FB37F6C52F33EF6900F96E89 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		FB37F6C72F33EF6900F96E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBE0B62C2F34F71700BDE7CC /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		FBE0B62E2F34F78F00BDE7CC /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		FBE0B6302F34F86F00BDE7CC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		FBE0B6332F35006200BDE7CC /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		FBE0B6362F35749500BDE7CC /* View.Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.Ext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		FB37F6852F33A19600F96E89 /* ABCExam */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ABCExam;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FB37F6802F33A19600F96E89 /* Frameworks */ = {
@@ -32,7 +53,7 @@
 		FB37F67A2F33A19500F96E89 = {
 			isa = PBXGroup;
 			children = (
-				FB37F6852F33A19600F96E89 /* ABCExam */,
+				FB37F6C92F33EF6900F96E89 /* ABCExam */,
 				FB37F6842F33A19600F96E89 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +64,106 @@
 				FB37F6832F33A19600F96E89 /* ABCExam.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FB37F6BD2F33EF6900F96E89 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FB37F6BC2F33EF6900F96E89 /* ABCExamApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FB37F6C12F33EF6900F96E89 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				FB37F6BE2F33EF6900F96E89 /* CarouselModel.swift */,
+				FB37F6BF2F33EF6900F96E89 /* CarouselView.swift */,
+				FB37F6C02F33EF6900F96E89 /* CarouselViewModel.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		FB37F6C42F33EF6900F96E89 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB37F6C22F33EF6900F96E89 /* HomeView.swift */,
+				FB37F6C32F33EF6900F96E89 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FB37F6C82F33EF6900F96E89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB37F6C72F33EF6900F96E89 /* Assets.xcassets */,
+				FBE0B6302F34F86F00BDE7CC /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB37F6C92F33EF6900F96E89 /* ABCExam */ = {
+			isa = PBXGroup;
+			children = (
+				FB37F6BD2F33EF6900F96E89 /* App */,
+				FB37F6D22F33F06000F96E89 /* Domain */,
+				FBE0B6292F34F6E000BDE7CC /* Scenes */,
+				FBE0B62A2F34F6E900BDE7CC /* Elements */,
+				FBE0B6352F35748200BDE7CC /* Utilities */,
+				FB37F6C82F33EF6900F96E89 /* Resources */,
+			);
+			path = ABCExam;
+			sourceTree = "<group>";
+		};
+		FB37F6D22F33F06000F96E89 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FB37F6C52F33EF6900F96E89 /* City.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FBE0B6292F34F6E000BDE7CC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FB37F6C42F33EF6900F96E89 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FBE0B62A2F34F6E900BDE7CC /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				FB37F6C12F33EF6900F96E89 /* Carousel */,
+				FBE0B62B2F34F6FF00BDE7CC /* City View */,
+				FBE0B6322F35005100BDE7CC /* SearchTextField */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		FBE0B62B2F34F6FF00BDE7CC /* City View */ = {
+			isa = PBXGroup;
+			children = (
+				FBE0B62C2F34F71700BDE7CC /* CityView.swift */,
+				FBE0B62E2F34F78F00BDE7CC /* CityViewModel.swift */,
+			);
+			path = "City View";
+			sourceTree = "<group>";
+		};
+		FBE0B6322F35005100BDE7CC /* SearchTextField */ = {
+			isa = PBXGroup;
+			children = (
+				FBE0B6332F35006200BDE7CC /* SearchTextField.swift */,
+			);
+			path = SearchTextField;
+			sourceTree = "<group>";
+		};
+		FBE0B6352F35748200BDE7CC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FBE0B6362F35749500BDE7CC /* View.Ext.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +180,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				FB37F6852F33A19600F96E89 /* ABCExam */,
 			);
 			name = ABCExam;
 			packageProductDependencies = (
@@ -109,6 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB37F6D12F33EF6900F96E89 /* Assets.xcassets in Resources */,
+				FBE0B6312F34F86F00BDE7CC /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +239,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB37F6CA2F33EF6900F96E89 /* ABCExamApp.swift in Sources */,
+				FB37F6CB2F33EF6900F96E89 /* CarouselModel.swift in Sources */,
+				FB37F6CC2F33EF6900F96E89 /* CarouselView.swift in Sources */,
+				FB37F6CD2F33EF6900F96E89 /* CarouselViewModel.swift in Sources */,
+				FB37F6CE2F33EF6900F96E89 /* HomeView.swift in Sources */,
+				FBE0B6342F35006200BDE7CC /* SearchTextField.swift in Sources */,
+				FBE0B62D2F34F71700BDE7CC /* CityView.swift in Sources */,
+				FB37F6CF2F33EF6900F96E89 /* HomeViewModel.swift in Sources */,
+				FBE0B6372F35749500BDE7CC /* View.Ext.swift in Sources */,
+				FBE0B62F2F34F78F00BDE7CC /* CityViewModel.swift in Sources */,
+				FB37F6D02F33EF6900F96E89 /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +390,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,8 +422,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

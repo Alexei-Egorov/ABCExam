@@ -13,7 +13,7 @@ class CarouselViewModel: ObservableObject {
     
     // MARK: - Properties
     
-    @Published var items: [CarouselItem] = []
+    @Published var items: [CarouselItem]
     @Published var currentIndex: Int = 0
     
     var numberOfItems: Int {
